@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/familytreeFragment">
+
+    <fragment
+        android:id="@+id/familytreeFragment"
+        android:name="com.ruchajoshi.bottomnavigationconcepts.FamilyTreeFragment"
+        android:label="@string/familytree"
+        tools:layout="@layout/fragment_familytree" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ruchajoshi.bottomnavigationconcepts.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.ruchajoshi.bottomnavigationconcepts.GalleryFragment"
+        android:label="@string/gallery"
+        tools:layout="@layout/fragment_gallery" />
+</navigation>
